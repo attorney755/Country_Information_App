@@ -1,0 +1,132 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 60px;
+    height: auto;
+}
+
+h1 {
+    color: #2c3e50;
+    margin: 10px 0;
+}
+
+.tagline {
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.user-actions {
+    margin: 10px 0;
+}
+
+
+.search-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    font-size: 16px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.suggestions-dropdown {
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 1000;
+}
+
+.suggestions-dropdown div {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.suggestions-dropdown div:hover {
+    background-color: #e0e0e0;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#countryInfo {
+    margin-top: 20px;
+    text-align: left;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+#countryInfo img {
+    max-width: 100px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+#countryInfo p {
+    margin: 10px 0;
+}

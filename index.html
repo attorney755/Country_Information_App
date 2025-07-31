@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <meta charset="UTF-8">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Country Information App</title>
+    <!-- This links to an external CSS file to style the webpage -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- This is the main container for the entire content of the page -->
+    <div class="container">
+        <!-- This header section contains the logo, title, and tagline -->
+        <header>
+            <!-- I added this logo container to include an image logo -->
+            <div class="logo">
+                <!-- This image tag is for the logo; I used a placeholder filename -->
+                <img src="image.png" alt="Logo">
+            </div>
+            <!-- This is the main heading of the webpage -->
+            <h1>Country Information App</h1>
+            <!-- I included this tagline to give users a brief description of the app -->
+            <p class="tagline">Explore the world, one country at a time</p>
+        </header>
+        <!-- This search container is for user input and the suggestions dropdown -->
+        <div class="search-container">
+            <!-- This input field allows the user to enter a country name -->
+            <input type="text" id="countryInput" placeholder="Enter country name">
+            <!-- This dropdown displays search suggestions as the user types -->
+            <div id="suggestions" class="suggestions-dropdown"></div>
+            <!-- This button triggers the search functionality -->
+            <button onclick="fetchCountryData()">Search</button>
+        </div>
+        <!-- This container displays the fetched country information -->
+        <div id="countryInfo"></div>
+    </div>
+    <!-- This links to the external JavaScript file for handling the app's logic -->
+    <script src="script.js"></script>
+</body>
+</html>
