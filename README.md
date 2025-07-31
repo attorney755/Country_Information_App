@@ -1,4 +1,3 @@
-
 # Country Information App Deployment
 
 ## Overview
@@ -6,6 +5,12 @@
 I created this project to demonstrate deploying a static web application using Docker, Docker Compose, and HAProxy as a load balancer. I used two Nginx-based web servers (`web-01` and `web-02`) to serve the application, with HAProxy (`lb-01`) distributing traffic between them to ensure load balancing and high availability.
 
 The application fetches and displays information about countries using the RestCountries API. This API provides comprehensive data about countries, including their flags, capitals, populations, regions, currencies, and languages. The Fetch API is used to make HTTP requests to the RestCountries API, providing a modern and clean way to fetch data in JavaScript.
+
+## Image Details
+
+- **Docker Hub Repository URL:** [attorney755/country-information-app](https://hub.docker.com/r/attorney755/country-information-app)
+- **Image Name:** `attorney755/country-information-app`
+- **Tag:** `v1`
 
 ## API Used
 
@@ -159,4 +164,4 @@ I did this because accessing the web servers directly can help diagnose and reso
 - **Testing**: Confirmed both servers are serving traffic via the load balancer, ensuring the setup works as intended.
 ```
 
-This updated README file includes information about the APIs used in your project and why they were chosen, providing a comprehensive overview of your deployment process and the technologies involved.
+This README file now includes the Docker Hub repository URL, image name, and tags, providing a comprehensive overview of your deployment process and the technologies involved.
