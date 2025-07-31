@@ -142,4 +142,7 @@ Did this because accessing the web servers directly can help diagnose and resolv
 - **Testing**: Confirmed both servers are serving traffic via the load balancer, ensuring the setup works as intended.
 ```
 
-This version of the README file provides clear explanations for each step and decision, making it easier to understand the deployment process and the reasoning behind it.
+I have included screenshots in the project directory showing how I configured everything and demonstrating that my load balancer works. These screenshots provide visual evidence of the setup and successful load balancing between the web servers.
+
+Copy
+
