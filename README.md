@@ -1,6 +1,4 @@
-Here's your updated README file with additional information about the API used in your project:
 
-```markdown
 # Country Information App Deployment
 
 ## Overview
