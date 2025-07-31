@@ -1,6 +1,4 @@
-Here's your revised README file with explanations using "Did this because of this":
 
-```markdown
 # Country Information App Deployment
 
 ## Overview
