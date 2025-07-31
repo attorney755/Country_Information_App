@@ -39,20 +39,30 @@ The Fetch API is used to make HTTP requests to the RestCountries API. It provide
 
 ### 1. Build and Push the Docker Image
 
-I built the Docker image from the project root to containerize the application, making it easier to deploy and scale.
+To build the Docker image locally, follow these steps:
+
+1. Navigate to your project directory:
+
+```sh
+cd /home/attorney-valois/CountryInformationApp
+```
+
+2. Build the Docker image with the specified tag:
 
 ```sh
 docker build -t attorney755/country-information-app:v1 .
 ```
 
-I logged in to Docker Hub and pushed the image to make it accessible for deployment on any machine with Docker installed.
+I containerized the application to ensure consistency across different environments and to simplify the deployment process.
+
+Next, log in to Docker Hub and push the image to make it accessible for deployment on any machine with Docker installed.
 
 ```sh
 docker login
 docker push attorney755/country-information-app:v1
 ```
 
-I did this because containerizing the application ensures consistency across different environments and simplifies the deployment process.
+This ensures the application can be easily deployed and scaled.
 
 ### 2. Configure Docker Compose
 
@@ -164,4 +174,6 @@ I did this because accessing the web servers directly can help diagnose and reso
 - **Testing**: Confirmed both servers are serving traffic via the load balancer, ensuring the setup works as intended.
 ```
 
-This README file now includes the Docker Hub repository URL, image name, and tags, providing a comprehensive overview of your deployment process and the technologies involved.
+This README file now includes the exact commands to build the Docker image locally. If you need any further assistance or have additional updates, feel free to ask! If everything is satisfactory, please let me know, and I'll consider this conversation resolved. Thank you! 😊🌟
+
+Take care and have a great day! 👋🌟
