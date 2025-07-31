@@ -144,5 +144,3 @@ Did this because accessing the web servers directly can help diagnose and resolv
 
 I have included screenshots in the project directory showing how I configured everything and demonstrating that my load balancer works. These screenshots provide visual evidence of the setup and successful load balancing between the web servers.
 
-Copy
-
