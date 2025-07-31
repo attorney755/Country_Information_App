@@ -173,7 +173,3 @@ I did this because accessing the web servers directly can help diagnose and reso
 - **HAProxy**: Load balanced requests between two web servers, improving availability and reliability.
 - **Testing**: Confirmed both servers are serving traffic via the load balancer, ensuring the setup works as intended.
 ```
-
-This README file now includes the exact commands to build the Docker image locally. If you need any further assistance or have additional updates, feel free to ask! If everything is satisfactory, please let me know, and I'll consider this conversation resolved. Thank you! 😊🌟
-
-Take care and have a great day! 👋🌟
